@@ -1,7 +1,7 @@
 function Footer(){
     return (
         <footer>
-            <p>&copy; First React App 2025</p>
+            <p>&copy; {new Date().getFullYear()}First React App</p>
         </footer>
     );
 }
